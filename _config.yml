@@ -7,11 +7,11 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
-title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+title                    : "Enough to Say"
+title_separator          : "|"
+name                     : "Dan Wyks"
+description              : "My personal blog containing things I have enough to say about."
+url                      : https://enoughtosay.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -35,7 +35,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "dwyks"
 facebook:
   username               :
   app_id                 :
@@ -61,10 +61,10 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  name             : "Dan Wyks"
+  avatar           : "Dan.JPG"
+  bio              : "I am a work in progress."
+  location         : "Denver, CO"
   email            :
   uri              :
   bitbucket        :
@@ -73,23 +73,36 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "dwyks"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "dwyks"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : "dwyks"
   vine             :
   weibo            :
   xing             :
   youtube          :
 
+# Post defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 
 # Reading Files
 include:
@@ -149,7 +162,7 @@ kramdown:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Denver # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
