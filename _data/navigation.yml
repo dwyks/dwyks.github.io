@@ -2,13 +2,13 @@
 main:
 
   - title: "Posts"
-    url: https://dwyks.github.io/year-archive/
+    url: /year-archive/
 
   - title: "Pages"
-    url: https://dwyks.github.io/page-archive/
+    url: /page-archive/
 
   - title: "Collections"
-    url: https://dwyks.github.io/collection-archive/
+    url: /collection-archive/
 
   - title: "About"
-    url: https://dwyks.github.io/about
+    url: /about/
