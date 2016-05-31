@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-layout: /single/
+layout: single
 title: About
 ---
 {% include base_path %}
