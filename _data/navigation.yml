@@ -1,14 +1,14 @@
 # main links links
 main:
 
-  - title: "Posts"
-    url: /year-archive/
+#  - title: "Posts"
+#    url: /year-archive/
 
-  - title: "Pages"
-    url: /page-archive/
+#  - title: "Pages"
+#    url: /page-archive/
 
-  - title: "Collections"
-    url: /collection-archive/
+#  - title: "Collections"
+#    url: /collection-archive/
 
   - title: "About"
     url: /about/
